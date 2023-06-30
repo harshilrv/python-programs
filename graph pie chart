@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+
+sizes = [30, 20, 15, 10, 25]
+labels = ['A', 'B', 'C', 'D', 'E']
+explode = [0, 0.1, 0, 0, 0]  # Explode the second section (B)
+
+plt.pie(sizes, labels=labels, explode=explode)
+plt.title("Pie Chart")
+
+plt.show()
